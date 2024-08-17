@@ -226,7 +226,7 @@ module.exports = function(eleventyConfig) {
     })
     .use(markdownItAnchor, opts)
     .use(markdownItEmoji)
-    .use(markdownItFootnote)
+    // .use(markdownItFootnote)
     // .use(markdownItContainer, 'callout')
     // .use(markdownItContainer, 'callout-blue')
     // .use(markdownItContainer, 'callout-pink')
