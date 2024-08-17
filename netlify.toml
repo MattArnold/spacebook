@@ -4,6 +4,10 @@
   #command = "npm run build && set -e && find ./_site -type f -name '*.html' -exec staticrypt -f password_template.html {} $PASSWORD -o {} \\;"
   functions = "functions"
 
+# You might need to change this to get the project to build in Netlify.
+[context.production.environment]
+  NODE_VERSION = "16.0.0"
+
 # REDIRECT and HEADERS examples
 
 # Redirect rule example
