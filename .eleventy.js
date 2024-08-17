@@ -224,23 +224,23 @@ module.exports = function(eleventyConfig) {
         tokens[idx].attrPush([ 'rel', 'noopener noreferrer' ])
       }
     })
-    .use(markdownItAnchor, opts)
-    .use(markdownItEmoji)
-    .use(markdownItFootnote)
-    .use(markdownItContainer, 'callout')
-    .use(markdownItContainer, 'callout-blue')
-    .use(markdownItContainer, 'callout-pink')
-    .use(markdownItContainer, 'callout-green')
-    .use(markdownItContainer, 'warning')
-    .use(markdownItTasks)
-    .use(markdownItCenterText)
-    .use(markdownLinkifyImages, {
-      imgClass: "p-4",
-    })
-    .use(markdownItAttrs, {
-      includeLevel: [2,3],
-      listType: "ol"
-    })
+    // .use(markdownItAnchor, opts)
+    // .use(markdownItEmoji)
+    // .use(markdownItFootnote)
+    // .use(markdownItContainer, 'callout')
+    // .use(markdownItContainer, 'callout-blue')
+    // .use(markdownItContainer, 'callout-pink')
+    // .use(markdownItContainer, 'callout-green')
+    // .use(markdownItContainer, 'warning')
+    // .use(markdownItTasks)
+    // .use(markdownItCenterText)
+    // .use(markdownLinkifyImages, {
+    //   imgClass: "p-4",
+    // })
+    // .use(markdownItAttrs, {
+    //   includeLevel: [2, 3],
+    //   listType: "ol"
+    // })
   );
 
   return {
