@@ -6,7 +6,7 @@
 
 # You might need to change this to get the project to build in Netlify.
 [context.production.environment]
-  NODE_VERSION = "16.0.0"
+  NODE_VERSION = "20.0.0"
 
 # REDIRECT and HEADERS examples
 
